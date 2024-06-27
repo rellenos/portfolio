@@ -22,11 +22,6 @@ html {
     animation: .5s ease-out 0s 1 opacity;
 }
 
-/* html {
-    transition: opacity 2s;
-    opacity: 1;
-} */
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -114,6 +109,14 @@ h1 {
 a {
     color: var(--font);
     text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: var(--blue);
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: var(--font);
 }
 
 /* ----------HEADER---------- */

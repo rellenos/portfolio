@@ -1,0 +1,19 @@
+clasificacion de ejercicios:
+
+--html/css
+.ejercicios: 001, 002, 003, 004, 005, 010, 011, 012, 014, 020, 021, 023, 029
+.maquetacion: 006, 007, 008, 009, 016, 019, 022, 024, 025, 028, 030, Krustyland (uf1304), vinos (mf0950), proyecto bootstrap
+.cheatsheets: 013, 015, 017, 018, 026, 027, 
+
+--JavaScript/json
+.ejercicios js: 001, 002, 003, regex, formulario, uf1305...
+.ejercicios json/apis: json superheroes, api starwars, api población, api gatos, 
+.programas: calculadora, 3enRaya, 
+
+--documentacion
+notas html, position html, index js, notes js, 
+
+
+
+
+© 2024. Página web de muestra. Todos los derechos de las plantillas e imagenes corresponden a sus creadores.

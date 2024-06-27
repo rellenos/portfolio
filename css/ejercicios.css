@@ -58,3 +58,14 @@ details a:hover {
     flex-direction: row;
     justify-content: space-around;
 }
+
+.card {
+    background-color: var(--bg);
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0 var(--blue);
+}
+
+.card-title {
+    color: var(--blue)
+}
+
