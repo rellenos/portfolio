@@ -1,0 +1,60 @@
+/* body {
+    opacity: 1;
+    transition: opacity 2s;
+} */
+
+section{
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+details {
+    background-color: #020617;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: height 1s ease;
+}
+
+summary {
+    width: 100%;
+}
+
+details:not([open]) {
+    height: auto;
+}
+
+details[open] {
+    height: auto;
+    overflow: hidden;
+}
+
+details:hover {
+    cursor: pointer;
+}
+
+details > a {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    transition: opacity 1s ease;
+}
+
+details:not([open]) > a {
+    opacity: 0;
+}
+
+details[open] > a {
+    opacity: 1;
+}
+
+details a:hover {
+    text-decoration: underline;
+}
+
+.dobleColumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
